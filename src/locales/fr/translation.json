@@ -1,0 +1,263 @@
+{
+  "account": {
+    "addEscrow": {
+      "confirmDelegatingToInactive": {
+        "description": "Le statut de ce validateur est {{validatorStatus}}. Votre délégation pourrait ne générer aucune récompense.",
+        "title": "Etes-vous sûr de vouloir continuer ?"
+      },
+      "delegate": "Déléguer"
+    },
+    "loading": "Chargement du compte",
+    "loadingError": "Impossible de charger le compte. Des informations peuvent être manquantes ou obsolètes.",
+    "reclaimEscrow": {
+      "reclaim": "Réclamer"
+    },
+    "sendTransaction": {
+      "confirmSendingToValidator": {
+        "description": "Il s'agit d'une adresse de validation. Les transferts à cette adresse ne jalonnent pas vos fonds auprès du validateur.",
+        "title": "Etes-vous sûr de vouloir continuer ?"
+      },
+      "enterAddress": "Entrez une adresse",
+      "recipient": "Destinataire",
+      "send": "Envoyer",
+      "success": "Transaction effectuée. La transaction peut mettre une minute avant d'apparaître sur votre compte."
+    },
+    "subnavigation": {
+      "activeDelegations": "Délégation active",
+      "debondingDelegations": "Délégations réclamées",
+      "transactions": "Transactions"
+    },
+    "summary": {
+      "balance": {
+        "available": "Disponible",
+        "debonding": "Debonding",
+        "delegations": "Délégué (stake)",
+        "total": "Solde total"
+      },
+      "noTransactionFound": "Aucune transaction trouvée",
+      "noWalletIsOpen": "Pour envoyer, recevoir, jalonner et échanger vos jetons Rose, <HomeLink>Ouvrez votre portefeuille</HomeLink> !",
+      "notYourAccount": "Ce compte n'est pas le vôtre.",
+      "yourAccount": "Ce compte est le vôtre."
+    },
+    "transaction": {
+      "addEscrow": {
+        "received": "Délégation de <Amount/> reçue",
+        "sent": "<Amount/> délégués au validateur"
+      },
+      "genericTransaction": {
+        "destination": "Autre adresse",
+        "header": "Type '{{method}}'"
+      },
+      "loadingError": "Impossible de charger les transactions. La liste peut être vide ou obsolète.",
+      "reclaimEscrow": {
+        "received": "<Amount/> réclamés par le délégateur",
+        "sent": "<Amount/> réclamés au validateur"
+      },
+      "transfer": {
+        "received": "<Amount/> reçus",
+        "sent": {
+          "header": "<Amount/> envoyés"
+        }
+      },
+      "unrecognizedTransaction": {
+        "destination": "Autre adresse",
+        "header": "Transaction non reconnue, le type '{{method}}'"
+      }
+    },
+    "validator": {
+      "loadingError": "Impossible de charger les validateurs.",
+      "showingStale": "La liste peut être vide ou obsolète {{staleTimestamp}}."
+    }
+  },
+  "common": {
+    "amount": "Montant",
+    "block": "Bloc",
+    "cancel": "Cancel",
+    "confirm": "Confirmer",
+    "delegator": "Délégateur",
+    "from": "De",
+    "to": "À",
+    "unavailable": "Indisponible",
+    "validator": "Validateur",
+    "validators": "Validateurs"
+  },
+  "createWallet": {
+    "confirmSaved": "J'ai sauvegardé ma phrase secrète.",
+    "doNotShare": "Ne partagez jamais votre phrase secrète, l'accès à votre phrase secrète permet d'accéder à votre portefeuille ainsi qu'à vos tokens.",
+    "instruction": "Sauvegardez votre phrase secrète <strong>dans le bon ordre</strong> et dans un endroit sécurisé, vous en aurez besoin pour ouvrir votre portefeuille à nouveau.",
+    "mnemonicMismatch": "La phrase mnémonique saisie ne correspond pas.",
+    "newMnemonic": "Générer une nouvelle phrase secrète",
+    "thisIsYourPhrase": "Voici votre phrase secrète"
+  },
+  "delegations": {
+    "activeDelegations": "Délégations actives",
+    "debondingDelegations": "Délégations réclamées",
+    "debondingEpoch": "Epoch de récupération",
+    "delegatedAmount": "Montant délégué",
+    "reclaimedAmount": "Montant réclamé"
+  },
+  "errors": {
+    "LedgerOasisAppIsNotOpen": "L'application Oasis sur le Ledger est fermée.",
+    "cannotSendToSelf": "Impossible d'effectuer une transaction vers votre propre compte",
+    "duplicateTransaction": "Transaction doublon",
+    "insufficientBalance": "Solde insuffisant",
+    "invalidAddress": "Adresse invalide",
+    "invalidNonce": "Nonce invalide (numéro de transaction)",
+    "invalidPrivateKey": "Clé privée invalide",
+    "ledgerAppVersionNotSupported": "Erreur reçue : \"Ledger App Version not supported\", cette erreur peut être un faux positif, relancez Oasis Wallet et réessayez. Si l'erreur persiste, mettez à jour l'application Oasis dans votre Ledger.",
+    "ledgerCannotOpenOasisApp": "Impossible d'accéder à l'application Oasis sur le Ledger. Assurez vous qu'il est dévérouillé et que l'application Oasis est ouverte.",
+    "ledgerNoDeviceSelected": "Aucun matériel Ledger détecté. Vérifiez qu'il soit connecté. <LedgerHelp>Vérifiez les problèmes de connexion USB courants avec le matériel Ledger</LedgerHelp>. <ChromeHelp>Vérifiez que les permissions du site ne bloque pas les appareils de type USB</ChromeHelp>.",
+    "ledgerTransactionRejected": "Transaction rejetée sur le Ledger.",
+    "noOpenWallet": "Aucun portefeuille ouvert",
+    "unknown": "Erreur inconnue : {{message}}",
+    "unknownGrpc": "Erreur inconnue gRPC: {{message}}",
+    "unknownLedgerError": "Erreur Ledger inconnue : {{message}}",
+    "usbTransportError": "Erreur USB : {{message}}",
+    "usbTransportNotSupported": "Votre navigateur Web ne prend pas en charge l'API WebUSB (par exemple Firefox). Essayez d'utiliser Chrome."
+  },
+  "fatalError": {
+    "copied": "Erreur copiée",
+    "copy": "Copier l'erreur",
+    "heading": "Une erreur fatale s'est produite",
+    "instruction": "Une erreur fatale s'est produite et Oasis Wallet doit s'arrêter. Essayez d'actualiser la page et d'ouvrir à nouveau votre portefeuille pour voir si le problème persiste. Si le problème persiste, veuillez contacter notre équipe d'assistance via l'e-mail <Email/> . Envoyez l'email et joignez le rapport ci-dessous."
+  },
+  "footer": {
+    "github": "Oasis Wallet est entièrement <GithubLink>open source</GithubLink> - N'hésitez pas à remonter tout problème !",
+    "poweredBy": {
+      "oasismonitor": "Alimenté par Oasis Monitor API & Oasis gRPC",
+      "oasisscan": "Alimenté par Oasis Scan API & Oasis gRPC"
+    },
+    "terms": "<TermsLink>Termes et Conditions</TermsLink>",
+    "version": "Version: <CommitLink/> construit à {{buildTime}}"
+  },
+  "home": {
+    "create": {
+      "button": "Créer un portefeuille",
+      "description": "Créez un tout nouveau portefeuille pour envoyer, reçevoir, stake et échanger des tokens ROSE.",
+      "header": "Créer un nouveau portefeuille"
+    },
+    "existing": {
+      "button": "Ouvrir mon portefeuille",
+      "description": "Ouvrez votre portefeuille existant stocké sur un Ledger, importez une clé privée ou une phrase mnémonique.",
+      "header": "Ouvrir un portefeuille existant"
+    }
+  },
+  "ledger": {
+    "instructionSteps": {
+      "closeLedgerLive": "Fermer l'application Ledger Live sur l'ordinateur",
+      "connectLedger": "Connectez votre matériel Ledger à l'ordinateur",
+      "header": "Etapes",
+      "openOasisApp": "Ouvrez l'application Oasis sur votre matériel Ledger"
+    },
+    "steps": {
+      "done": "Fin",
+      "loadingAccounts": "Chargement des adresses",
+      "loadingBalances": "Chargement du solde des adresses",
+      "openingUsb": "Ouverture du Ledger via USB"
+    }
+  },
+  "menu": {
+    "closeWallet": "Refermer le portefeuille",
+    "home": "Accueil",
+    "stake": "Staking",
+    "wallet": "Portefeuille"
+  },
+  "openWallet": {
+    "bitpie": {
+      "warning": "❗ Utilisateurs du portefeuille BitPie : vous ne pouvez pas importer la phrase mnémonique secrète directement depuis votre portefeuille BitPie. <DocsLink>Consultez la documentation pour plus de détails.</DocsLink>"
+    },
+    "header": "Comment souhaitez-vous ouvrir votre portefeuille ?",
+    "ledger": {
+      "cancel": "Annuler",
+      "header": "Ouvrir à partir d'un matériel Ledger",
+      "openWallets": "Ouvrir",
+      "selectWallets": "Sélectionnez les comptes à ouvrir"
+    },
+    "method": {
+      "ledger": "Ledger",
+      "mnemonic": "Phrase secrète",
+      "privateKey": "Clé privée"
+    },
+    "mnemonic": {
+      "enterPhraseHere": "Entrez votre phrase secrète ici",
+      "error": "Phrase secrète invalide. Entrez chaque mot séparé d'un espace et dans le bon ordre.",
+      "header": "Entrez votre phrase secrète",
+      "import": "Importer mon portefeuille",
+      "instruction": "Entrez ci-dessous tous les mots qui composent votre phrase secrète (séparés par des espaces). La plupart des phrases secrètes sont composées de 24 ou 12 mots."
+    },
+    "privateKey": {
+      "enterPrivateKeyHere": "Entrez votre clé privée ici",
+      "error": "Clé privée invalide",
+      "header": "Entrez votre clé privée",
+      "hidePrivateKey": "Masquer la clé privée",
+      "instruction": "Entrez votre clé privée au format base64 ci-dessous.",
+      "showPrivateKey": "Montrer la clé privée"
+    }
+  },
+  "theme": {
+    "darkMode": "Thème nuit",
+    "lightMode": "Thème clair"
+  },
+  "toolbar": {
+    "networks": {
+      "local": "Local",
+      "mainnet": "Mainnet",
+      "testnet": "Testnet"
+    },
+    "wallets": {
+      "close": "Fermer",
+      "switchOtherWallet": "Passer à un autre compte",
+      "type": {
+        "ledger": "Ledger",
+        "mnemonic": "Phrase secrète",
+        "privateKey": "Clé privée"
+      }
+    }
+  },
+  "transaction": {
+    "abort": "Annuler",
+    "confirm": "Confirmer",
+    "preview": {
+      "amount": "Montant",
+      "fee": "Frais",
+      "from": "Depuis",
+      "gas": "Gas",
+      "genesisHash": "Genesis Hash",
+      "shares": "Parts",
+      "to": "Vers",
+      "type": "Type",
+      "validator": "Validateur",
+      "warning": "Vous ne pourrez plus annuler votre transaction après avoir confirmé. Prenez le temps de vérifier les montants et adresse avant de confirmer."
+    },
+    "step": {
+      "building": "Construction de la transaction",
+      "preview": "Prévisualisez la transaction",
+      "signing": "Signature de la transaction",
+      "submitting": "Envoi de la transaction"
+    },
+    "types": {
+      "addEscrow": "Déléguer vos tokens à un validateur pour générer des récompenses",
+      "reclaimEscrow": "Réclamer vos tokens délégués à un validateur",
+      "transfer": "Transfert de tokens de votre compte à un autre"
+    }
+  },
+  "validator": {
+    "boundsNotSet": "Pas de bornes définies (0% - 100%)",
+    "commission": "Commission",
+    "commissionBounds": {
+      "current": "<strong>{{lowerBound}}% - {{upperBound}}%</strong> à l'Epoch {{epoch}}",
+      "future": "{{lowerBound}}% - {{upperBound}}% à partir de l'Epoch {{epoch}}",
+      "label": "Bornes de commissions"
+    },
+    "escrow": "Escrow",
+    "fee": "Frais",
+    "name": "Nom",
+    "rank": "Rang",
+    "status": "Statut",
+    "statusActive": "Actif",
+    "statusInactive": "Inactif",
+    "statusUnknown": "Inconnu",
+    "totalEscrow": "Escrow total",
+    "unknownValidator": "Unknown validator"
+  }
+}

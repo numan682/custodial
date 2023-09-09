@@ -1,0 +1,297 @@
+{
+  "account": {
+    "addEscrow": {
+      "confirmDelegatingToInactive": {
+        "description": "Stanje overitelja je {{validatorStatus}}. Vaše delegiranje morda ne bo prineslo nagrad.",
+        "title": "Ste prepričani, da želite nadaljevati?"
+      },
+      "confirmDelegatingToTop": {
+        "acknowledge": "Vseeno delegiraj",
+        "description": "Izbran overitelj je med 20 največjimi. Za izboljšanje varnosti omrežja in enakomernejšo porazdelitev predlagamo, da delegirate manjšemu overitelju."
+      },
+      "delegate": "Delegiraj"
+    },
+    "loading": "Nalaganje računa",
+    "loadingError": "Računa ni mogoče naložiti.",
+    "reclaimEscrow": {
+      "convertedToShares": "Število gigadeležev: {{shares}}",
+      "reclaim": "Oddelegiraj",
+      "reclaimAll": "Oddelegiraj vse"
+    },
+    "sendTransaction": {
+      "confirmSendingToValidator": {
+        "description": "To je naslov overitelja. Prenos kovancev na ta naslov ni enako delegiranju kovancev.",
+        "title": "Ste prepričani, da želite nadaljevati?"
+      },
+      "enterAddress": "Vnesite naslov",
+      "recipient": "Prejemnik",
+      "send": "Pošlji",
+      "success": "Transakcija uspešno izvršena. Novo stanje na vašem računu bo prikazano v kratkem."
+    },
+    "subnavigation": {
+      "activeDelegations": "Aktivne delegacije",
+      "debondingDelegations": "Delegacije v razvezi",
+      "mobileActiveDelegations": "Delegacije",
+      "mobileDebondingDelegations": "V razvezi",
+      "transactions": "Transakcije"
+    },
+    "summary": {
+      "balance": {
+        "available": "Na voljo",
+        "debonding": "V razvezi",
+        "delegations": "Delegirano",
+        "total": "Stanje"
+      },
+      "noTransactionFound": "Ni transakcij",
+      "noWalletIsOpen": "Za pošiljanje, sprejemanje, vlaganje in menjavo {{ ticker }} morate <HomeLink>odpreti vašo denarnico</HomeLink>!",
+      "notYourAccount": "To ni vaš račun.",
+      "yourAccount": "To je vaš račun."
+    },
+    "transaction": {
+      "addEscrow": {
+        "received": "Prejeto <Amount> v delegiranje",
+        "sent": "Delegirano <Amount/> overitelju"
+      },
+      "consensusDeposit": {
+        "received": "Prejet polog <Amount/> na ParaTime {{runtimeName}}",
+        "sent": "Polog <Amount/> na ParaTime {{runtimeName}}"
+      },
+      "consensusWithdraw": {
+        "received": "Dvig <Amount/> s ParaTima {{runtimeName}}",
+        "sent": "Prejet dvig <Amount/> s ParaTima {{runtimeName}}"
+      },
+      "explorerLink": "Pregled transakcije v raziskovalcu blokov",
+      "failed": "Spodletelo",
+      "genericTransaction": {
+        "destination": "Drug naslov",
+        "header": "Metoda '{{method}}'"
+      },
+      "loadingError": "Transakcij ni bilo mogoče pridobiti.",
+      "reclaimEscrow": {
+        "received": "Vračilo <Amount/> investitorju",
+        "sent": "Prejeto <Amount/> od overitelja"
+      },
+      "stakingAllow": {
+        "received": "Dobljeno dovoljenje za <Amount/>",
+        "sent": "Dano dovoljenje za <Amount/>"
+      },
+      "successful": "Uspešno",
+      "transfer": {
+        "received": "Prejeto <Amount/>",
+        "sent": {
+          "header": "Poslano <Amount/>"
+        }
+      },
+      "unrecognizedTransaction": {
+        "destination": "Drug naslov",
+        "header": "Nepoznana transakcija, metoda '{{method}}'"
+      }
+    },
+    "validator": {
+      "loadingError": "Ni mogoče naložiti overiteljev.",
+      "showingStale": "Seznam overiteljev z dne {{staleTimestamp}}"
+    }
+  },
+  "backends": {
+    "oasismonitor": "Oasis Monitor API",
+    "oasisscan": "Oasis Scan API"
+  },
+  "common": {
+    "amount": "Znesek",
+    "block": "Blok",
+    "cancel": "Prekliči",
+    "confirm": "Potrdi",
+    "delegator": "Delegator",
+    "from": "Od",
+    "hash": "Zgoščena vrednost transakcije",
+    "round": "Krog",
+    "time": "Čas",
+    "to": "Za",
+    "unavailable": "Nedosegljiv",
+    "validator": "Overitelj",
+    "validators": "Overitelji"
+  },
+  "createWallet": {
+    "confirmSaved": "Ključne besede sem shranil",
+    "doNotShare": "Ključnih besed nikomur ne kažite, saj z njimi lahko dostopa do vaše denarnice in kovancev.",
+    "instruction": "Ključne besede mnemonika shranite na varno mesto in <strong>v pravilnem vrstnem redu</strong>. Potrebovali jih boste ob vsakem odpiranju denarnice.",
+    "mnemonicMismatch": "Vnešen mnemonik se ne ujema.",
+    "newMnemonic": "Ustvari nov mnemonik",
+    "thisIsYourPhrase": "To je vaš mnemonik"
+  },
+  "delegations": {
+    "activeDelegations": "Aktivne delegacije",
+    "debondingDelegations": "Delegacije v razvezi",
+    "debondingTimeEnd": "Konec razveze",
+    "delegatedAmount": "Delegiran znesek",
+    "loadingError": "Ni mogoče naložiti delegacij.",
+    "reclaimedAmount": "Vračilo"
+  },
+  "errors": {
+    "LedgerOasisAppIsNotOpen": "Oasis App na Ledgerju je zaprt.",
+    "cannotSendToSelf": "Ni mogoče pošiljati samemu sebi",
+    "disconnectedError": "Izgubljena povezava.",
+    "duplicateTransaction": "Podvojena transakcija",
+    "indexerAPIError": "{{indexerName}} ni dosegljiv, zato informacije o računu ne bodo ažurne. Prosimo, poskusite kasneje.",
+    "insufficientBalance": "Stanje na računu prenizko",
+    "invalidAddress": "Neveljaven naslov",
+    "invalidNonce": "Neveljavno unikatno število (številka transakcije)",
+    "invalidPrivateKey": "Neveljaven zasebni ključ",
+    "ledgerAppVersionNotSupported": "Aplikacija Oasis na Ledgerju je zaprta ali zastarela. Poskrbite, da je Ledger odklenjen in da je zadnja različica aplikacije Oasis zagnana.",
+    "ledgerCannotOpenOasisApp": "Ni mogoče odpreti aplikacije Oasis na Ledgerju. Poskrbite, da je naprava odklenjena in aplikacija Oasis zagnana.",
+    "ledgerNoDeviceSelected": "Ledger ni izbran. Preverite, če je povezan. <LedgerHelp>Preverite običajne napake s povezavo USB</LedgerHelp> in da <ChromeHelp>dovoljenja spletne strani omogočajo dostop do USB</ChromeHelp>.",
+    "ledgerTransactionRejected": "Transakcija na Ledgerju zavrnjena",
+    "noOpenWallet": "Ni odprte denarnice",
+    "unknown": "Neznana napaka: {{message}}",
+    "unknownGrpc": "Neznana napaka gRPC: {{message}}",
+    "unknownLedgerError": "Neznana napaka na Ledgerju: {{message}}",
+    "usbTransportError": "Napaka na prenosu prek USB: {{message}}",
+    "usbTransportNotSupported": "Vaš brskalnik ne podpira WebUSB (npr. Firefox). Poskusite z uporabo Chroma."
+  },
+  "fatalError": {
+    "copied": "Napaka skopirana v odložišče",
+    "copy": "Skopiraj napako v odložišče",
+    "heading": "Pojavila se je usodna napaka",
+    "instruction": "Pojavila se je usodna napaka in Oasis Wallet se mora zapreti. Poskusite ponovno naložiti stran in odpreti vašo denarnico, da preverite, če se napaka ponovi. V tem primeru vas prosimo, da obvestite podporno ekipo na e-naslov <Email/> in pripnete spodnje poročilo."
+  },
+  "footer": {
+    "github": "Oasis Wallet je <GithubLink>odprtokodna aplikacija</GithubLink>. Dobrodošli odzivi in morebitna poročila o težavah!",
+    "poweredBy": {
+      "oasismonitor": "Deluje s pomočjo Oasis Monitor API & Oasis gRPC",
+      "oasisscan": "Deluje s pomočjo Oasis Scan API & Oasis gRPC"
+    },
+    "terms": "<TermsLink>Pogoji uporabe</TermsLink>",
+    "version": "Različica: <CommitLink/>, zgrajena dne {{buildTime}}"
+  },
+  "home": {
+    "create": {
+      "button": "Ustvari denarnico",
+      "description": "Ustvarite novo denarnico za sprejemanje, pošiljanje in menjavo kovancev ROSE.",
+      "header": "Ustvari denarnico"
+    },
+    "existing": {
+      "button": "Odpri denarnico",
+      "description": "Odprite obstoječo denarnico na Ledgerju, uvozite zasebni ključ ali mnemonik.",
+      "header": "Odpri denarnico"
+    }
+  },
+  "ledger": {
+    "instructionSteps": {
+      "closeLedgerLive": "Zaprite Ledger Live app na računalniku.",
+      "connectLedger": "Povežite vaš Ledger z računalnikom.",
+      "header": "Koraki:",
+      "openOasisApp": "Odprite Oasis App na vašem Ledgerju."
+    },
+    "steps": {
+      "done": "Končano",
+      "loadingAccounts": "Nalaganje podrobnosti računa",
+      "loadingBalances": "Nalaganje podrobnosti stanja",
+      "openingUsb": "Odpiranje Ledgerja prek USB"
+    }
+  },
+  "menu": {
+    "closeWallet": "Zapri denarnico",
+    "home": "Domov",
+    "stake": "Vlaganje",
+    "wallet": "Denarnica"
+  },
+  "openWallet": {
+    "bitpie": {
+      "warning": "❗ Uporabniki denarnice BitPie: Uvoz vašega BitPie mnemonika neposredno v Oasis denarnico ni mogoča. <DocsLink>Za več informacij preverite dokumentacijo.</DocsLink>"
+    },
+    "header": "Kako želite odpreti denarnico?",
+    "importAccounts": {
+      "openWallets": "Odpri",
+      "selectWallets": "Izberite račune"
+    },
+    "ledger": {
+      "header": "Odpri z Ledgerjem"
+    },
+    "method": {
+      "ledger": "Z Ledgerjem",
+      "mnemonic": "Z mnemonikom",
+      "privateKey": "Z zasebnim ključem"
+    },
+    "mnemonic": {
+      "enterPhraseHere": "Sem vnesite ključne besede",
+      "error": "Neveljavne ključne besede. Preverite, ali so besede v pravem zaporedju in z malo začetnico.",
+      "header": "Vnesite ključne besede",
+      "import": "Uvozi denarnico",
+      "instruction": "Vnesite vse besede vašega mnemonika, ločene s presledkom. Običajno jih je 12 ali 24."
+    },
+    "privateKey": {
+      "enterPrivateKeyHere": "Sem vnesite zasebni ključ",
+      "error": "Neveljaven zasebni ključ",
+      "header": "Vnesite zasebni ključ",
+      "hidePrivateKey": "Skrij zasebni ključ",
+      "instruction": "Vnesite vaš zasebni ključ v zapisu Base64.",
+      "showPrivateKey": "Pokaži zasebni ključ"
+    }
+  },
+  "theme": {
+    "darkMode": "Temni način",
+    "lightMode": "Svetli način"
+  },
+  "toolbar": {
+    "networks": {
+      "local": "Lokalno",
+      "mainnet": "Mainnet",
+      "testnet": "Testnet"
+    },
+    "wallets": {
+      "close": "Zapri",
+      "switchOtherWallet": "Izberite račun",
+      "type": {
+        "ledger": "Ledger",
+        "mnemonic": "Mnemonik",
+        "privateKey": "Zasebni ključ"
+      }
+    }
+  },
+  "transaction": {
+    "abort": "Prekini",
+    "confirm": "Potrdi",
+    "preview": {
+      "amount": "Znesek",
+      "fee": "Provizija",
+      "from": "Od",
+      "gas": "Gas",
+      "genesisHash": "Zgoščena vrednost začetnega bloka",
+      "shares": "Deleži",
+      "to": "Za",
+      "type": "Tip",
+      "validator": "Overitelj",
+      "warning": "Transakcijo skrbno preglejte in jo potrdite. Po potrditvi je ne bo mogoče več preklicati."
+    },
+    "step": {
+      "building": "Izdelava transakcije",
+      "preview": "Predogled transakcije",
+      "signing": "Podpisovanje transakcije",
+      "submitting": "Pošiljanje transakcije"
+    },
+    "types": {
+      "addEscrow": "Delegiranje vaših kovancev overiteljem",
+      "reclaimEscrow": "Vračilo delegiranih kovancev na vaš račun",
+      "transfer": "Prenos kovancev z vašega na tuj račun"
+    }
+  },
+  "validator": {
+    "boundsNotSet": "Brez omejitev (0% - 100%)",
+    "commission": "Provizija",
+    "commissionBounds": {
+      "current": "<strong>{{lowerBound}}% - {{upperBound}}%</strong> v trenutni epohi {{epoch}}",
+      "future": "{{lowerBound}}% - {{upperBound}}% z začetkom pri epohi {{epoch}}",
+      "label": "Meje provizije"
+    },
+    "escrow": "Znesek v hrambi",
+    "fee": "Provizija",
+    "name": "Ime",
+    "rank": "Rang",
+    "status": "Stanje",
+    "statusActive": "Dejaven",
+    "statusInactive": "Nedejaven",
+    "statusUnknown": "Neznano",
+    "totalEscrow": "Celotna vrednost",
+    "unknownValidator": "Neznan overitelj"
+  }
+}

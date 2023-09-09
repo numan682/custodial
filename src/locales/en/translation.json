@@ -1,0 +1,453 @@
+{
+  "account": {
+    "addEscrow": {
+      "confirmDelegatingToInactive": {
+        "description": "Status of this validator is {{validatorStatus}}. Your delegation might not generate any rewards.",
+        "title": "Are you sure you want to continue?"
+      },
+      "confirmDelegatingToTop": {
+        "acknowledge": "Delegate anyway",
+        "description": "This validator is ranked in the top 20 by stake. Please consider delegating to a smaller validator to increase network security and decentralization."
+      },
+      "delegate": "Delegate"
+    },
+    "addressCopied": "Address copied.",
+    "loading": "Loading account",
+    "loadingError": "Couldn't load account.",
+    "reclaimEscrow": {
+      "convertedToShares": "Corresponding number of gigashares: {{shares}}",
+      "reclaim": "Reclaim",
+      "reclaimAll": "Reclaim all"
+    },
+    "sendTransaction": {
+      "confirmSendingToValidator": {
+        "description": "This is a validator address. Transfers to this address do not stake your funds with the validator.",
+        "title": "Are you sure you want to continue?"
+      },
+      "enterAddress": "Enter an address",
+      "enterAmount": "Enter an amount",
+      "recipient": "Recipient",
+      "send": "Send",
+      "success": "Transaction successfully sent. The transaction might take up to a minute to appear on your account."
+    },
+    "subnavigation": {
+      "activeDelegations": "Active delegations",
+      "debondingDelegations": "Debonding delegations",
+      "mobileActiveDelegations": "Delegations",
+      "mobileDebondingDelegations": "Debonding",
+      "transactions": "Transactions"
+    },
+    "summary": {
+      "balance": {
+        "available": "Available",
+        "debonding": "Debonding",
+        "delegations": "Staked",
+        "total": "Total"
+      },
+      "noTransactionFound": "No transactions found.",
+      "noWalletIsOpen": "To send, receive, stake and swap {{ticker}} tokens, <HomeLink>open your wallet</HomeLink>.",
+      "notYourAccount": "This is not your account.",
+      "yourAccount": "This is your account."
+    },
+    "transaction": {
+      "addEscrow": {
+        "received": "Received <Amount> delegation in escrow",
+        "sent": "Delegated <Amount/> to validator"
+      },
+      "consensusDeposit": {
+        "received": "Received <Amount/> deposit into {{runtimeName}} ParaTime",
+        "sent": "Deposited <Amount/> into {{runtimeName}} ParaTime"
+      },
+      "consensusWithdraw": {
+        "received": "Withdrew <Amount/> out of {{runtimeName}} ParaTime",
+        "sent": "Received <Amount/> from withdrawal out of {{runtimeName}} ParaTime"
+      },
+      "explorerLink": "View transaction records through explorer",
+      "failed": "Failed",
+      "genericTransaction": {
+        "destination": "Other address",
+        "header": "Method '{{method}}'"
+      },
+      "loadingError": "Couldn't load transactions.",
+      "reclaimEscrow": {
+        "received": "<Amount/> reclaimed by delegator",
+        "sent": "Reclaimed <Amount/> from validator"
+      },
+      "stakingAllow": {
+        "received": "Received <Amount/> allowance",
+        "sent": "Set <Amount/> allowance"
+      },
+      "successful": "Successful",
+      "transfer": {
+        "received": "Received <Amount/>",
+        "sent": {
+          "header": "Sent <Amount/>"
+        }
+      },
+      "unrecognizedTransaction": {
+        "destination": "Other address",
+        "header": "Unrecognized transaction, method '{{method}}'"
+      }
+    },
+    "validator": {
+      "loadingError": "Couldn't load validators.",
+      "showingStale": "Showing validator list as of {{staleTimestamp}}."
+    }
+  },
+  "backends": {
+    "oasismonitor": "Oasis Monitor API",
+    "oasisscan": "Oasis Scan API"
+  },
+  "banner": {
+    "buildPreview": "Please note this is an experimental build of Oasis Wallet and your secrets are not safe. ONLY USE IT FOR TESTING.",
+    "buildStaging": "Please note this is the staging deployment of Oasis Wallet. ONLY USE IT FOR TESTING.",
+    "domainMoved": "Oasis Wallet has a new home at <NewLink />."
+  },
+  "common": {
+    "amount": "Amount",
+    "block": "Block",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delegator": "Delegator",
+    "from": "From",
+    "hash": "Tx Hash",
+    "round": "Round",
+    "time": "Time",
+    "to": "To",
+    "unavailable": "Unavailable",
+    "validator": "Validator",
+    "validators": "Validators"
+  },
+  "createWallet": {
+    "confirmSaved": "I saved my keyphrase",
+    "doNotShare": "Never share your keyphrase, anyone with your keyphrase can access your wallet and your tokens.",
+    "instruction": "Save your keyphrase <strong>in the right order</strong> in a secure location, you will need it to open your wallet.",
+    "mnemonicMismatch": "Entered mnemonic does not match.",
+    "newMnemonic": "Generate a new mnemonic",
+    "thisIsYourPhrase": "This is your mnemonic"
+  },
+  "delegations": {
+    "activeDelegations": "Active delegations",
+    "debondingDelegations": "Debonding delegations",
+    "debondingTimeEnd": "End of debonding",
+    "delegatedAmount": "Delegated amount",
+    "loadingError": "Couldn't load delegations.",
+    "reclaimedAmount": "Amount to reclaim"
+  },
+  "errors": {
+    "LedgerDerivedDifferentAccount": "This account does not belong to the currently connected Ledger.",
+    "LedgerOasisAppIsNotOpen": "Oasis App on Ledger is closed.",
+    "cannotSendToSelf": "Cannot send to yourself",
+    "disconnectedError": "Lost connection.",
+    "duplicateTransaction": "Duplicate transaction",
+    "indexerAPIError": "{{indexerName}} appears to be down, some information may be missing or out of date. Please, come back later.",
+    "insufficientBalance": "Insufficient balance",
+    "invalidAddress": "Invalid address",
+    "invalidNonce": "Invalid nonce (transaction number)",
+    "invalidPrivateKey": "Invalid private key",
+    "ledgerAppVersionNotSupported": "Oasis App on Ledger is closed or outdated. Make sure Ledger is unlocked, the Oasis App is opened and up to date.",
+    "ledgerCannotOpenOasisApp": "Could not open Oasis App on Ledger. Make sure Ledger is unlocked and the Oasis App is opened.",
+    "ledgerNoDeviceSelected": "No Ledger device selected. Make sure it is connected, <LedgerHelp>check common USB connection issues with Ledger</LedgerHelp>, and <ChromeHelp>check site permissions don't block USB devices</ChromeHelp>.",
+    "ledgerTransactionRejected": "Transaction rejected on Ledger.",
+    "noOpenWallet": "No wallet opened",
+    "unknown": "Unknown error: {{message}}",
+    "unknownGrpc": "Unknown gRPC error: {{message}}",
+    "unknownLedgerError": "Unknown ledger error: {{message}}",
+    "unknownParaTimeError": "Unknown ParaTime error: {{message}}",
+    "usbTransportError": "USB Transport error: {{message}}.",
+    "usbTransportNotSupported": "Your browser does not support WebUSB (e.g. Firefox). Try using Chrome."
+  },
+  "fatalError": {
+    "copied": "Error copied to clipboard",
+    "copy": "Copy error to clipboard",
+    "heading": "A fatal error occurred",
+    "instruction": "A fatal error has occurred and Oasis Wallet must stop. Try refreshing the page and reopening your wallet to see if the issue persists. If the issue persists, please contact our support team via <Email/> email and attach the report below."
+  },
+  "fiatOnramp": {
+    "astarFootnote": "It is hereby noted that AStar Technologies, a Cayman Islands exempted company is acting on behalf and for the purposes of Oasis, and is also the provider of the Oasis Wallet.",
+    "description": "This feature allows you to convert your fiat currency into cryptocurrency.",
+    "header": "Buy ROSE",
+    "headerInWidget": "Purchase ROSE to your wallet",
+    "notMainnet": "You can only use this feature when your are on the mainnet.",
+    "notYourAccount": "You can only use this feature when your wallet is open.",
+    "openYourWallet": "Open your wallet",
+    "switchToMainnet": "Switch to Mainnet",
+    "thirdPartyAcknowledge": "I understand that I’m using a third-party solution and Oasis* does not carry any responsibility over the usage of this solution.",
+    "thirdPartyDisclaimer": "This service is provided by an external party. Oasis* does not carry any responsibility. All fees charged by Transak."
+  },
+  "footer": {
+    "github": "Oasis Wallet is fully <GithubLink>open source</GithubLink> - Feedback and issues are appreciated!",
+    "poweredBy": {
+      "oasismonitor": "Powered by Oasis Monitor API & Oasis gRPC",
+      "oasisscan": "Powered by Oasis Scan API & Oasis gRPC"
+    },
+    "terms": "<TermsLink>Terms and Conditions</TermsLink>",
+    "version": "Version: <ReleaseLink/> (commit: <CommitLink/>) built at {{buildTime}}"
+  },
+  "home": {
+    "create": {
+      "button": "Create wallet",
+      "description": "Create a brand new wallet to send, receive, stake and swap ROSE tokens.",
+      "header": "Create new wallet"
+    },
+    "existing": {
+      "button": "Open wallet",
+      "description": "Open your existing wallet stored on Ledger, import a private key or a mnemonic phrase.",
+      "header": "Access existing wallet"
+    }
+  },
+  "infoBox": {
+    "valueCopied": "{{label}} copied."
+  },
+  "ledger": {
+    "extension": {
+      "connect": "Connect Ledger device",
+      "failed": "Connection failed",
+      "grantAccess": "Grant access to your Ledger",
+      "instructionStep": "Once device is connected continue the operation in the wallet app",
+      "succeed": "Device connected"
+    },
+    "instructionSteps": {
+      "closeLedgerLive": "Close Ledger Live app on the computer",
+      "connectLedger": "Connect your Ledger device to the computer",
+      "header": "Steps:",
+      "openOasisApp": "Open the Oasis App on your Ledger device"
+    },
+    "steps": {
+      "idle": "Idle",
+      "loadingAccounts": "Loading account details",
+      "loadingBalances": "Loading balance details",
+      "openingUsb": "Opening Ledger through USB"
+    }
+  },
+  "menu": {
+    "closeWallet": "Close wallet",
+    "fiatOnramp": "Buy",
+    "home": "Home",
+    "lockProfile": "Lock profile",
+    "paraTimes": "ParaTimes",
+    "stake": "Stake",
+    "unlockProfile": "Unlock profile",
+    "wallet": "Wallet"
+  },
+  "openWallet": {
+    "bitpie": {
+      "warning": "❗ BitPie wallet users: You cannot import the mnemonic phrase directly from your BitPie wallet. <DocsLink>Check documentation for details.</DocsLink>"
+    },
+    "header": "How do you want to open your wallet?",
+    "importAccounts": {
+      "accountCounter": "{{count}} accounts selected",
+      "accountCounter_one": "One account selected",
+      "accountCounter_plural": "{{count}} accounts selected",
+      "accountCounter_zero": "No account selected",
+      "next": "Next",
+      "openWallets": "Open",
+      "pageNumber": "Page {{pageNum}} of {{totalPages}}",
+      "prev": "Prev",
+      "selectWallets": "Select accounts to open"
+    },
+    "ledger": {
+      "header": "Open from Ledger device"
+    },
+    "method": {
+      "ledger": "Ledger",
+      "mnemonic": "Mnemonic",
+      "privateKey": "Private key"
+    },
+    "mnemonic": {
+      "enterPhraseHere": "Enter your keyphrase here",
+      "error": "Invalid keyphrase. Please make sure to input the words in the right order, all lowercase.",
+      "header": "Enter your keyphrase",
+      "import": "Import my wallet",
+      "instruction": "Enter all your keyphrase words below separated by spaces. Most keyphrases are made of either 24 or 12 words."
+    },
+    "privateKey": {
+      "enterPrivateKeyHere": "Enter your private key here",
+      "error": "Invalid private key",
+      "header": "Enter your private key",
+      "hidePrivateKey": "Hide private key",
+      "instruction": "Enter your private key in Base64 format.",
+      "showPrivateKey": "Show private key"
+    }
+  },
+  "paraTimes": {
+    "amount": {
+      "advanced": "Advanced",
+      "available": "Available:",
+      "depositDescription": "Please enter the amount of {{ticker}} to deposit and then click \"{{nextButtonLabel}}\"",
+      "emptyAccount": "The account is empty. There is nothing to withdraw.",
+      "feeAmountPlaceholder": "Fee Amount (nano {{ticker}})",
+      "feeGasPlaceholder": "Fee Gas",
+      "max": "MAX",
+      "tooltip": "Max value may be decreased by the fee",
+      "withdrawDescription": "Please enter the amount of {{ticker}} to withdraw and then click \"{{nextButtonLabel}}\""
+    },
+    "common": {
+      "cipher": "Cipher",
+      "depositHeader": "Deposit to ParaTime",
+      "emerald": "Emerald",
+      "evmcType": "(EVMc)",
+      "header": "ParaTime Transfers",
+      "sapphire": "Sapphire",
+      "withdrawHeader": "Withdraw from ParaTime"
+    },
+    "confirmation": {
+      "confirmDepositDescription": "Please confirm the deposit amount and the recipient address are correct and then click \"{{nextButtonLabel}}\".",
+      "confirmDepositToForeignAccountDescription": "Destination address does not match any of the accounts in your wallet! Some services such as exchanges, may not support direct deposits to fund your account. For better compatibility, we strongly recommend that you first deposit to your ParaTime account and then transfer {{ticker}} to the destination address.",
+      "confirmTransferLabel": "I confirm the amount and the address are correct",
+      "confirmTransferToForeignAccount": "I confirm I want to directly withdraw to an external account",
+      "confirmTransferToValidatorDescription": "This is a validator wallet address. Transfers to this address do not stake your funds to the validator.",
+      "confirmTransferToValidatorLabel": "I confirm I want to transfer {{ticker}} to a validator address",
+      "confirmWithdrawDescription": "Please confirm the withdrawal amount and the recipient address are correct and then click \"{{nextButtonLabel}}\".",
+      "confirmWithdrawToForeignAccountDescription": "Destination address does not match any of the accounts in your wallet! Some services such as exchanges, may not support direct withdrawals to fund the account. For better compatibility, we strongly recommend that you first withdraw to your consensus account and then transfer {{ticker}} to the destination address.",
+      "depositDescription": "You are about to deposit <strong>{{value}} {{ticker}}</strong> to <strong>{{address}}</strong> on <strong>{{paraTime}}</strong> {{paratimeType}}",
+      "depositLabel": "Deposit",
+      "withdrawDescription": "You are about to withdraw <strong>{{value}} {{ticker}}</strong> from <strong>{{paraTime}}</strong> {{paratimeType}} to <strong>{{address}}</strong>",
+      "withdrawLabel": "Withdraw"
+    },
+    "error": {
+      "depositDescription": "Transaction failed. We were not able to complete deposit of <strong>{{value}} {{ticker}}</strong> to <strong>{{address}}</strong> on <strong>{{paraTime}}</strong> {{paratimeType}}",
+      "withdrawDescription": "Transaction failed. We were not able to complete withdrawal of <strong>{{value}} {{ticker}}</strong> from <strong>{{paraTime}}</strong> {{paratimeType}} to <strong>{{address}}</strong>"
+    },
+    "footer": {
+      "back": "Back",
+      "next": "Next",
+      "notice": "* EVMc - compatible with Ethereum Virtual Machine"
+    },
+    "pageInaccessible": "Transfers are not available.",
+    "recipient": {
+      "depositDescription": "Please enter the recipient address on <strong>{{paraTime}}</strong> {{paratimeType}} and then click \"{{nextButtonLabel}}\"",
+      "evmcWithdrawDescription": "Please enter the private key of the account on ParaTime, the recipient address on consensus and click \"{{nextButtonLabel}}\"",
+      "placeholder": "0x...",
+      "privateKeyPlaceholder": "Enter Ethereum-compatible private key",
+      "withdrawDescription": "Please enter the recipient address on consensus and click \"{{nextButtonLabel}}\""
+    },
+    "selection": {
+      "cancel": "Cancel transfer",
+      "depositDescription": "Please select which ParaTime you wish to deposit your {{ticker}} to and then click \"{{nextButtonLabel}}\".",
+      "evmc": "EVMc",
+      "select": "Select a ParaTime",
+      "withdrawDescription": "Please select which ParaTime you wish to withdraw your {{ticker}} from and then click \"{{nextButtonLabel}}\"."
+    },
+    "summary": {
+      "depositDescription": "You have successfully deposited <strong>{{value}} {{ticker}}</strong> to <strong>{{address}}</strong> on <strong>{{paraTime}}</strong> {{paratimeType}}",
+      "navigate": "Navigate to ParaTime Transfers",
+      "withdrawDescription": "You have successfully withdrawn <strong>{{value}} {{ticker}}</strong> from <strong>{{paraTime}}</strong> {{paratimeType}} to <strong>{{address}}</strong>"
+    },
+    "transfers": {
+      "deposit": "Deposit to ParaTime",
+      "depositDisabled": "You don't have any {{ticker}} tokens to transfer",
+      "description": "Click on the \"{{depositButtonLabel}}\" button to deposit your {{ticker}} from consensus to a ParaTime of your choice or \"{{withdrawButtonLabel}}\" to withdraw your {{ticker}} from a ParaTime back to consensus.",
+      "withdraw": "Withdraw from ParaTime"
+    },
+    "unsupportedFormStep": "Unsupported form step",
+    "validation": {
+      "insufficientBalanceToPayFee": "Insufficient balance to pay the fee",
+      "invalidDecimalValue": "Maximum of {{decimals}} decimal places is allowed",
+      "invalidEthPrivateKey": "Ethereum-compatible private key is invalid",
+      "invalidEthPrivateKeyLength": "Private key should be 64 characters long",
+      "invalidFee": "Value must be integer greater than or equal to 0",
+      "required": "Field is required",
+      "unsupportedParaTime": "Unsupported ParaTime"
+    }
+  },
+  "persist": {
+    "createProfile": {
+      "choosePassword": "Choose a password",
+      "passwordMismatch": "Entered password does not match",
+      "repeatPassword": "Re-enter your password",
+      "startPersisting": "Store private keys locally, protected by a password",
+      "unsupported": "Persistence is not supported in this browser."
+    },
+    "loading": "Loading",
+    "loginToProfile": {
+      "deleteProfile": {
+        "button": "Delete profile",
+        "confirm": "Yes, delete",
+        "confirmationKeyword": "delete",
+        "confirmationKeywordInvalid": "Type 'delete'",
+        "description": "Are you sure you want to delete this profile? This action cannot be undone and will <strong>erase your private keys</strong>.<br/><br/>To continue please enter '{{confirmationKeyword}}' below.",
+        "title": "Delete Profile"
+      },
+      "description": "Log into your existing user profile on this computer to access the wallets you already added.",
+      "enterPasswordHere": "Enter your password here",
+      "hidePassword": "Hide password",
+      "showPassword": "Show password",
+      "skipUnlocking": "Continue without the profile",
+      "title": "Welcome Back!",
+      "unlock": "Unlock",
+      "wrongPassword": "Wrong password"
+    }
+  },
+  "theme": {
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
+  },
+  "toolbar": {
+    "networks": {
+      "local": "Local",
+      "mainnet": "Mainnet",
+      "testnet": "Testnet"
+    },
+    "settings": {
+      "cancel": "Cancel",
+      "exportPrivateKey": "Export Private Key",
+      "manageAccount": "Manage",
+      "myAccountsTab": "My Accounts"
+    },
+    "wallets": {
+      "select": "Select",
+      "type": {
+        "ledger": "Ledger",
+        "mnemonic": "Mnemonic",
+        "privateKey": "Private key"
+      }
+    }
+  },
+  "transaction": {
+    "abort": "Abort",
+    "confirm": "Confirm",
+    "preview": {
+      "amount": "Amount",
+      "fee": "Fee",
+      "from": "From",
+      "gas": "Gas",
+      "genesisHash": "Genesis hash",
+      "shares": "Gigashares",
+      "to": "To",
+      "type": "Type",
+      "validator": "Validator",
+      "warning": "Once you confirm this transaction you will not be able to cancel it. Carefully review it, and confirm once you are sure that you want to send it."
+    },
+    "step": {
+      "building": "Building transaction",
+      "preview": "Preview transaction",
+      "signing": "Signing transaction",
+      "submitting": "Submitting transaction"
+    },
+    "types": {
+      "addEscrow": "Delegating your tokens to a validator and generate rewards",
+      "reclaimEscrow": "Reclaiming your tokens delegated to a validator",
+      "transfer": "Transferring tokens from your account to another"
+    }
+  },
+  "validator": {
+    "boundsNotSet": "No bounds set (0% - 100%)",
+    "commission": "Commission",
+    "commissionBounds": {
+      "current": "<strong>{{lowerBound}}% - {{upperBound}}%</strong> at current Epoch {{epoch}}",
+      "future": "{{lowerBound}}% - {{upperBound}}% starting from Epoch {{epoch}}",
+      "label": "Commission bounds"
+    },
+    "escrow": "Escrow",
+    "fee": "Fee",
+    "name": "Name",
+    "rank": "Rank",
+    "status": "Status",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "statusUnknown": "Unknown",
+    "totalEscrow": "Total escrow",
+    "unknownValidator": "Unknown validator"
+  }
+}
