@@ -1,0 +1,1302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountPage  /> should match snapshot 1`] = `
+.c11 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  fill: #666666;
+  stroke: #666666;
+}
+
+.c11 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c11 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c11 *[stroke*='#'],.c11 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c11 *[fill-rule],
+.c11 *[FILL-RULE],
+.c11 *[fill*='#'],.c11 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c0 {
+  font-family: Rubik;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #ffffff;
+  color: #16213E;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-bottom: 12px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  background-color: rgba(194,245,234,1);
+  color: #16213E;
+  border-left: solid 3px #2ad5ab;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  background-color: #FFFFFF;
+  color: #16213E;
+  border: solid 1px #EDEDED;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  padding: 12px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-right: 12px;
+  border-radius: 5px;
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0092f6;
+  color: #F8F8F8;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 24px;
+}
+
+.c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 300px;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+}
+
+.c27 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+}
+
+.c29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  border-bottom: solid 1px rgba(0,0,0,0.33);
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c33 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: 24px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c36 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  -webkit-flex-basis: 75%;
+  -ms-flex-preferred-size: 75%;
+  flex-basis: 75%;
+}
+
+.c37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c38 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  background-color: #FFFFFF;
+  color: #16213E;
+  border: solid 1px #EDEDED;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 48px;
+  border-radius: 5px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #FFFFFF;
+  color: #16213E;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c32 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  height: 24px;
+}
+
+.c35 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  width: 12px;
+}
+
+.c5 {
+  font-size: 12px;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.c12 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  word-break: break-word;
+}
+
+.c13 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c15 {
+  font-size: 12px;
+  line-height: 18px;
+  color: #a3a3a3;
+  font-weight: 600;
+}
+
+.c24 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.c28 {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c39 {
+  font-size: 26px;
+  line-height: 32px;
+  max-width: 624px;
+  font-weight: 600;
+  overflow-wrap: break-word;
+}
+
+.c19 {
+  position: relative;
+}
+
+.c20 {
+  position: relative;
+  display: block;
+}
+
+.c21 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.c23 {
+  margin-top: -10px;
+  margin-right: -10px;
+}
+
+.c10 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  color: inherit;
+  outline: none;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+  line-height: 0;
+  padding: 12px;
+}
+
+.c10:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c10:focus > circle,
+.c10:focus > ellipse,
+.c10:focus > line,
+.c10:focus > path,
+.c10:focus > polygon,
+.c10:focus > polyline,
+.c10:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c10:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c10:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c10:focus:not(:focus-visible) > circle,.c10:focus:not(:focus-visible) > ellipse,
+.c10:focus:not(:focus-visible) > line,.c10:focus:not(:focus-visible) > path,
+.c10:focus:not(:focus-visible) > polygon,.c10:focus:not(:focus-visible) > polyline,
+.c10:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c10:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c18 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  color: inherit;
+  outline: none;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+}
+
+.c18:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c18:focus > circle,
+.c18:focus > ellipse,
+.c18:focus > line,
+.c18:focus > path,
+.c18:focus > polygon,
+.c18:focus > polyline,
+.c18:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c18:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c18:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c18:focus:not(:focus-visible) > circle,.c18:focus:not(:focus-visible) > ellipse,
+.c18:focus:not(:focus-visible) > line,.c18:focus:not(:focus-visible) > path,
+.c18:focus:not(:focus-visible) > polygon,.c18:focus:not(:focus-visible) > polyline,
+.c18:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c18:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c34 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: 2px solid #0092f6;
+  border-radius: 4px;
+  color: #16213E;
+  padding: 4px 22px;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #0092f6;
+  color: #F8F8F8;
+  border-radius: 4px;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
+  transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  font-weight: bold;
+}
+
+.c34:hover {
+  box-shadow: 0px 0px 0px 2px #0092f6;
+}
+
+.c34:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c34:focus > circle,
+.c34:focus > ellipse,
+.c34:focus > line,
+.c34:focus > path,
+.c34:focus > polygon,
+.c34:focus > polyline,
+.c34:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c34:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c34:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c34:focus:not(:focus-visible) > circle,.c34:focus:not(:focus-visible) > ellipse,
+.c34:focus:not(:focus-visible) > line,.c34:focus:not(:focus-visible) > path,
+.c34:focus:not(:focus-visible) > polygon,.c34:focus:not(:focus-visible) > polyline,
+.c34:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c34:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-top: solid 1px #EDEDED;
+  margin: 6px 0 0;
+  padding: 12px 12px 6px;
+}
+
+.c14 dt,
+.c14 dd {
+  margin: 0;
+}
+
+.c14 dt:first-of-type,
+.c14 dd:first-of-type {
+  font-weight: bold;
+}
+
+.c17 {
+  padding: 12px;
+}
+
+.c17:hover {
+  background-color: #11111108;
+}
+
+.c17.active {
+  background-color: #EFEFEF;
+}
+
+.c31 {
+  box-sizing: border-box;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  -webkit-appearance: none;
+  background: transparent;
+  color: inherit;
+  width: 100%;
+  padding: 11px;
+  font-weight: 600;
+  margin: 0;
+  border: 1px solid rgba(0,0,0,0.33);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+.c31::-webkit-input-placeholder {
+  color: #AAAAAA;
+}
+
+.c31::-moz-placeholder {
+  color: #AAAAAA;
+}
+
+.c31:-ms-input-placeholder {
+  color: #AAAAAA;
+}
+
+.c31::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.c31::-moz-focus-inner {
+  border: none;
+  outline: none;
+}
+
+.c31:-moz-placeholder,
+.c31::-moz-placeholder {
+  opacity: 1;
+}
+
+.c30 {
+  position: relative;
+  width: 100%;
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    padding: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c2 {
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c3 {
+    border-left: solid 3px #2ad5ab;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c3 {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c6 {
+    border: solid 1px #EDEDED;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c7 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c7 {
+    padding: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c9 {
+    padding-right: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+
+}
+
+@media only screen and (max-width:768px) {
+  .c22 {
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c25 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c27 {
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c29 {
+    border-bottom: solid 1px rgba(0,0,0,0.33);
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c33 {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c37 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c38 {
+    border: solid 1px #EDEDED;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c38 {
+    padding: 24px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c16 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c32 {
+    height: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c35 {
+    width: auto;
+    height: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c39 {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 432px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .c14 dt {
+    width: 40%;
+  }
+
+  .c14 dd {
+    width: 60%;
+  }
+
+  .c14 dt:not(:last-of-type),.c14 dd:not(:last-of-type) {
+    margin-bottom: 6px;
+  }
+
+  .c14 dt:first-of-type,
+  .c14 dd:first-of-type {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c14 dt {
+    width: 30%;
+  }
+
+  .c14 dd {
+    width: 70%;
+    text-align: right;
+  }
+
+  .c14 dt,
+  .c14 dd {
+    font-size: 16px;
+  }
+
+  .c14 dt:not(:last-of-type),.c14 dd:not(:last-of-type) {
+    margin-bottom: 3px;
+  }
+
+  .c14 dt:first-of-type,
+  .c14 dd:first-of-type {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c17 {
+    padding: 6px;
+  }
+}
+
+<div
+  class="c0"
+  style="min-height: 100vh;"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            class="c5"
+            style="margin-top: 10px; margin-bottom: 10px;"
+          >
+            This is your account.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <div
+            class="c9"
+          >
+            <button
+              class="c10"
+              data-testid="copy-address"
+              type="button"
+            >
+              <svg
+                aria-label="Copy"
+                class="c11"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 15h8-8zm0-4h10H9zm0-4h4-4zm7-6v6h6M6 5H2v18h16v-4m4 0H6V1h11l5 5v13z"
+                  fill="none"
+                  stroke="#000"
+                  stroke-width="2"
+                />
+              </svg>
+            </button>
+            <span
+              class="c12"
+            >
+              <span
+                class="c13"
+                style="font-family: Roboto mono; letter-spacing: 0;"
+              >
+                <span
+                  class="notranslate"
+                  translate="no"
+                >
+                  oasis1 qz0k 5q8v jqvu 4s4n wxyj 406y lnfl kc4v rcjg huwk
+                </span>
+              </span>
+            </span>
+          </div>
+          <dl
+            class="c14"
+            data-testid="account-balance-summary"
+          >
+            <dt>
+              <span
+                class="c13"
+              >
+                Total
+              </span>
+            </dt>
+            <dd
+              data-testid="account-balance-total"
+            >
+              <span>
+                <span>
+                  100.000001111
+                </span>
+                <span
+                  class="c15"
+                >
+                  <span
+                    class="notranslate"
+                    translate="no"
+                  >
+                     
+                  </span>
+                </span>
+              </span>
+            </dd>
+            <dt>
+              Available
+            </dt>
+            <dd>
+              <span>
+                <span>
+                  100.0
+                </span>
+                <span
+                  class="c15"
+                >
+                  <span
+                    class="notranslate"
+                    translate="no"
+                  >
+                     
+                  </span>
+                </span>
+              </span>
+            </dd>
+            <dt>
+               
+              Staked
+            </dt>
+            <dd>
+              <span>
+                <span>
+                  0.000001111
+                </span>
+                <span
+                  class="c15"
+                >
+                  <span
+                    class="notranslate"
+                    translate="no"
+                  >
+                     
+                  </span>
+                </span>
+              </span>
+            </dd>
+            <dt>
+              Debonding
+            </dt>
+            <dd>
+              <span>
+                <span>
+                  0.0
+                </span>
+                <span
+                  class="c15"
+                >
+                  <span
+                    class="notranslate"
+                    translate="no"
+                  >
+                     
+                  </span>
+                </span>
+              </span>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="c16"
+    >
+      <a
+        aria-current="page"
+        class="c17 active"
+        href="/account/oasis1qz0k5q8vjqvu4s4nwxyj406ylnflkc4vrcjghuwk"
+      >
+        <button
+          class="c18"
+          tabindex="-1"
+          type="button"
+        >
+          Transactions
+        </button>
+      </a>
+      <a
+        class="c17"
+        href="/account/oasis1qz0k5q8vjqvu4s4nwxyj406ylnflkc4vrcjghuwk/active-delegations"
+      >
+        <div
+          class="c19"
+        >
+          <div
+            class="c20"
+          >
+            <button
+              class="c18"
+              tabindex="-1"
+              type="button"
+            >
+              Delegations
+            </button>
+          </div>
+          <div
+            class="c21"
+            style="top: 0px; right: 0px; transform: translate(50%, -50%); transform-origin: 100% 0%;"
+          >
+            <div
+              class="c22 c23"
+              style="min-height: 20px; min-width: 20px;"
+            >
+              <span
+                class="c24"
+              >
+                1
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        class="c17"
+        href="/account/oasis1qz0k5q8vjqvu4s4nwxyj406ylnflkc4vrcjghuwk/debonding-delegations"
+      >
+        <button
+          class="c18"
+          tabindex="-1"
+          type="button"
+        >
+          Debonding
+        </button>
+      </a>
+    </nav>
+    <div
+      class="c25"
+    >
+      <div
+        class="c26"
+      >
+        <div
+          class="c6"
+        >
+          <form>
+            <div
+              class="c27"
+            >
+              <div
+                class="c2 "
+              >
+                <label
+                  class="c28"
+                  for="recipient-id"
+                >
+                  Recipient
+                </label>
+                <div
+                  class="c29 "
+                >
+                  <div
+                    class="c30"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="c31"
+                      id="recipient-id"
+                      name="recipient"
+                      placeholder="Enter an address"
+                      required=""
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c32"
+              />
+              <div
+                class="c2 "
+              >
+                <label
+                  class="c28"
+                  for="amount-id"
+                >
+                  Amount
+                </label>
+                <div
+                  class="c29 "
+                >
+                  <div
+                    class="c30"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="c31"
+                      id="amount-id"
+                      min="0"
+                      name="amount"
+                      placeholder="Enter an amount"
+                      required=""
+                      step="any"
+                      type="number"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="c32"
+              />
+              <div
+                class="c33"
+              >
+                <button
+                  class="c34"
+                  type="submit"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="c35"
+      />
+      <div
+        class="c36"
+      >
+        <div
+          class="c37"
+        >
+          <div
+            class="c38"
+          >
+            <h3
+              class="c39"
+            >
+              No transactions found.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<AccountPage  /> with missing delegations 1`] = `"Total-Available100.0  Staked-Debonding-"`;
+
+exports[`<AccountPage  /> with missing delegations 2`] = `"TransactionsDelegationsDebonding"`;
